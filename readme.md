@@ -23,7 +23,7 @@ python3 Main.py --root_dir /media/sanvik/Data/Dual_Degree_Project/ --model_net C
 ```
 ## Results
 
-![Visual Explanations generated using CNN_Transformer](/assets/explanation1.jpg "Sample 1")
+![Visual Explanations generated using CNN_Transformer](/assets/explanation1.jpg "Sample 1") <br><br><br>
 ![Visual Explanations generated using CNN_Transformer](/assets/explanation2.jpg "Sample 2")
 
 - The first row indicates the raw-attention scores - Brighter colors (yellow) indicate higher pairwise relation with the final prediction
