@@ -21,3 +21,12 @@ For explaining a trained model (say CNN-Transformer), execute the following comm
 ```bash
 python3 Main.py --root_dir /media/sanvik/Data/Dual_Degree_Project/ --model_net CNNTrans --out_dir CNNTransPool_4_128_CLS --head_type cls --test --vis
 ```
+## Results
+
+![Visual Explanations generated using CNN_Transformer](/assets/explanation1.jpg "Sample 1")
+![Visual Explanations generated using CNN_Transformer](/assets/explanation2.jpg "Sample 2")
+
+- The first row indicates the raw-attention scores - Brighter colors (yellow) indicate higher pairwise relation with the final prediction
+- Second row indicates the raw video frames
+- Third row represents the attention scores overlayed over video frames
+- Fourth row shows the GradCam visualizations over each frame
